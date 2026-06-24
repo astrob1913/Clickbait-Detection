@@ -1,5 +1,7 @@
 CLICKBAIT DETECTION
-----------Project Overview: 
+
+
+-Project Overview: 
 
 This project investigates automated clickbait detection using Natural Language Processing (NLP) techniques. The task is formulated as a binary text classification problem, where headlines are classified as either clickbait or non-clickbait.
 
@@ -21,7 +23,7 @@ The models are evaluated using:
 
 The best-performing model was the LSTM model trained using the Adam optimiser.
 
----------Google Drive Link:
+-Google Drive Link:
 
 
 Google Drive folder containing the complete project files with the training notebook ("NLP CW_main,ipynb") and all the trained models:
@@ -29,7 +31,7 @@ Google Drive folder containing the complete project files with the training note
 https://drive.google.com/drive/folders/1QvWW3UQhGyw-5L28gFEbcuSa_saNKDpT?usp=sharing
 
 
-------------Project Structure:
+-Project Structure:
 
 
 Dataset/
@@ -51,7 +53,7 @@ Result data/
 Test_evaluation.ipynb - Here, the best two models are being evaluated on test set.
 
 
------------Required Software: 
+-Required Software: 
 
 
 The project was developed and tested using:
@@ -68,14 +70,14 @@ Recommended operating systems:
 GPU acceleration is optional but recommended for faster LSTM training.
 
 
----------Required Libraries:
+-Required Libraries:
 
 Install the following libraries before running the notebooks:
 
 pip install numpy pandas scikit-learn matplotlib tensorflow gensim nltk seaborn jupyter
 
 
-------------Running the Project:
+-Running the Project:
 
 
 The assessors only need to run:
@@ -106,7 +108,7 @@ This notebook:
 The notebook reproduces the final evaluation results reported in the coursework without requiring model retraining.
 
 
------------Important Notes:
+-Important Notes:
 
 
 - Ensure all folders remain in the same directory structure to avoid file path errors.
@@ -118,7 +120,7 @@ The notebook reproduces the final evaluation results reported in the coursework 
 - Word2Vec embeddings were trained directly on the project training dataset using Gensim.
 
 
----------Reproducibility:
+-Reproducibility:
 
 All preprocessing, tokenization, vectorization, and model configurations used during training are included in the notebooks to ensure reproducibility.
 
